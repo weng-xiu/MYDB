@@ -11,6 +11,9 @@ import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.backend.utils.Parser;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 日志
+ */
 public interface Logger {
     void log(byte[] data);
     void truncate(long x) throws Exception;

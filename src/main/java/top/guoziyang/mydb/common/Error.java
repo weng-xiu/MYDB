@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.common;
 
+/**
+ * 错误
+ */
 public class Error {
     // common
     public static final Exception CacheFullException = new RuntimeException("Cache is full!");

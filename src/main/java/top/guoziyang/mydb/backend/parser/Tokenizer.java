@@ -2,6 +2,9 @@ package top.guoziyang.mydb.backend.parser;
 
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 分词器
+ */
 public class Tokenizer {
     private byte[] stat;
     private int pos;

@@ -6,6 +6,9 @@ import top.guoziyang.mydb.backend.dm.page.PageOne;
 import top.guoziyang.mydb.backend.dm.pageCache.PageCache;
 import top.guoziyang.mydb.backend.tm.TransactionManager;
 
+/**
+ * 数据管理器
+ */
 public interface DataManager {
     DataItem read(long uid) throws Exception;
     long insert(long xid, byte[] data) throws Exception;

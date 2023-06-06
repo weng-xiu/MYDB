@@ -15,6 +15,9 @@ import top.guoziyang.mydb.backend.vm.VersionManager;
 import top.guoziyang.mydb.backend.vm.VersionManagerImpl;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * Launcher
+ */
 public class Launcher {
 
     public static final int port = 9999;

@@ -18,6 +18,9 @@ import top.guoziyang.mydb.backend.utils.Parser;
 import top.guoziyang.mydb.backend.vm.VersionManager;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 表管理器实现
+ */
 public class TableManagerImpl implements TableManager {
     VersionManager vm;
     DataManager dm;

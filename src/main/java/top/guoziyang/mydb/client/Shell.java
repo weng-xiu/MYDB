@@ -2,6 +2,9 @@ package top.guoziyang.mydb.client;
 
 import java.util.Scanner;
 
+/**
+ * Shell
+ */
 public class Shell {
     private Client client;
 

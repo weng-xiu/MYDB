@@ -6,6 +6,9 @@ import com.google.common.primitives.Bytes;
 
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 编码器
+ */
 public class Encoder {
 
     public byte[] encode(Package pkg) {

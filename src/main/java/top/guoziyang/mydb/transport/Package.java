@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.transport;
 
+/**
+ * Package
+ */
 public class Package {
     byte[] data;
     Exception err;

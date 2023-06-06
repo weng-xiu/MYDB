@@ -11,6 +11,9 @@ import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.backend.utils.Parser;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 事务管理器实现
+ */
 public class TransactionManagerImpl implements TransactionManager {
 
     // XID文件头长度

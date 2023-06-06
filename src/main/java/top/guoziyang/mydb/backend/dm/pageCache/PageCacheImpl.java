@@ -14,6 +14,9 @@ import top.guoziyang.mydb.backend.dm.page.PageImpl;
 import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 页面缓存实现
+ */
 public class PageCacheImpl extends AbstractCache<Page> implements PageCache {
     
     private static final int MEM_MIN_LIM = 10;

@@ -5,6 +5,9 @@ import java.util.Arrays;
 
 import com.google.common.primitives.Bytes;
 
+/**
+ * Parser
+ */
 public class Parser {
 
     public static byte[] short2Byte(short value) {

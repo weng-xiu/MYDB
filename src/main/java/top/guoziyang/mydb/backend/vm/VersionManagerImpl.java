@@ -12,6 +12,9 @@ import top.guoziyang.mydb.backend.tm.TransactionManagerImpl;
 import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 版本管理器实现
+ */
 public class VersionManagerImpl extends AbstractCache<Entry> implements VersionManager {
 
     TransactionManager tm;

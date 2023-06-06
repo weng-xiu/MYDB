@@ -5,6 +5,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import top.guoziyang.mydb.backend.dm.pageCache.PageCache;
 
+/**
+ * 页面实现
+ */
 public class PageImpl implements Page {
     private int pageNumber;
     private byte[] data;

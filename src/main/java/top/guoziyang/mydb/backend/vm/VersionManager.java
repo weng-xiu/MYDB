@@ -3,6 +3,9 @@ package top.guoziyang.mydb.backend.vm;
 import top.guoziyang.mydb.backend.dm.DataManager;
 import top.guoziyang.mydb.backend.tm.TransactionManager;
 
+/**
+ * 版本管理器
+ */
 public interface VersionManager {
     byte[] read(long xid, long uid) throws Exception;
     long insert(long xid, byte[] data) throws Exception;

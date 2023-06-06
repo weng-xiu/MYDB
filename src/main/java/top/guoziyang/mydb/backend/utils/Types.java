@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.backend.utils;
 
+/**
+ * Types
+ */
 public class Types {
     public static long addressToUid(int pgno, short offset) {
         long u0 = (long)pgno;

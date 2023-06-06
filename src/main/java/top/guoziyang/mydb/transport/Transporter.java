@@ -10,6 +10,9 @@ import java.net.Socket;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
 
+/**
+ * Transporter
+ */
 public class Transporter {
     private Socket socket;
     private BufferedReader reader;

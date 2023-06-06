@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.backend.dm.pageIndex;
 
+/**
+ * 页面信息
+ */
 public class PageInfo {
     public int pgno;
     public int freeSpace;

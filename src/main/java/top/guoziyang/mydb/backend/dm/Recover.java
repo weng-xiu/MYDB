@@ -19,6 +19,9 @@ import top.guoziyang.mydb.backend.tm.TransactionManager;
 import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.backend.utils.Parser;
 
+/**
+ * 数据恢复
+ */
 public class Recover {
 
     private static final byte LOG_TYPE_INSERT = 0;

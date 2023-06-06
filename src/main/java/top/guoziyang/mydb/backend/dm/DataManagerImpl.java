@@ -15,6 +15,9 @@ import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.backend.utils.Types;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 数据管理器实现
+ */
 public class DataManagerImpl extends AbstractCache<DataItem> implements DataManager {
 
     TransactionManager tm;

@@ -7,6 +7,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import top.guoziyang.mydb.backend.dm.pageCache.PageCache;
 
+/**
+ * 页面索引
+ */
 public class PageIndex {
     // 将一页划成40个区间
     private static final int INTERVALS_NO = 40;

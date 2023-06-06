@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.backend.common;
 
+/**
+ * 子数组
+ */
 public class SubArray {
     public byte[] raw;
     public int start;

@@ -10,6 +10,9 @@ import top.guoziyang.mydb.backend.dm.page.Page;
 import top.guoziyang.mydb.backend.utils.Parser;
 import top.guoziyang.mydb.backend.utils.Types;
 
+/**
+ * 数据项
+ */
 public interface DataItem {
     SubArray data();
     

@@ -14,6 +14,9 @@ import top.guoziyang.mydb.transport.Package;
 import top.guoziyang.mydb.transport.Packager;
 import top.guoziyang.mydb.transport.Transporter;
 
+/**
+ * 服务器
+ */
 public class Server {
     private int port;
     TableManager tbm;
@@ -49,6 +52,9 @@ public class Server {
     }
 }
 
+/**
+ * 处理一个连接
+ */
 class HandleSocket implements Runnable {
     private Socket socket;
     private TableManager tbm;

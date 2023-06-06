@@ -3,6 +3,9 @@ package top.guoziyang.mydb.client;
 import top.guoziyang.mydb.transport.Package;
 import top.guoziyang.mydb.transport.Packager;
 
+/**
+ * RoundTripper
+ */
 public class RoundTripper {
     private Packager packager;
 

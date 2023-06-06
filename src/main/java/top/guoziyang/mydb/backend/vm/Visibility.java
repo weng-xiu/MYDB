@@ -2,6 +2,9 @@ package top.guoziyang.mydb.backend.vm;
 
 import top.guoziyang.mydb.backend.tm.TransactionManager;
 
+/**
+ * 可见性
+ */
 public class Visibility {
     
     public static boolean isVersionSkip(TransactionManager tm, Transaction t, Entry e) {

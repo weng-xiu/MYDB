@@ -1,5 +1,8 @@
 package top.guoziyang.mydb.transport;
 
+/**
+ * Packager
+ */
 public class Packager {
     private Transporter transpoter;
     private Encoder encoder;

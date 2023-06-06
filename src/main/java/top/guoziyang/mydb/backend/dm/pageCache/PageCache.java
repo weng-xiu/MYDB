@@ -9,6 +9,9 @@ import top.guoziyang.mydb.backend.dm.page.Page;
 import top.guoziyang.mydb.backend.utils.Panic;
 import top.guoziyang.mydb.common.Error;
 
+/**
+ * 页面缓存
+ */
 public interface PageCache {
     
     public static final int PAGE_SIZE = 1 << 13;
